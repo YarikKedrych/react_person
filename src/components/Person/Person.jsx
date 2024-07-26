@@ -11,7 +11,7 @@ export const Person = ({ person }) => {
           {person.partnerName} is my {marriedLable}
         </p>
       ) : (
-        <p className="Person__partner">I am not married</p>
+        <p>I am not married</p>
       )}
     </section>
   );
